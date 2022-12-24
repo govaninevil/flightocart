@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flightocart</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl.theme.default.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style/easy-responsive-tabs.css ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="bg-white">
+        <div class="main-navbar py-[15px] absolute top-0 left-0px z-[2] w-full bg-white">
+            <div class="container p-0">
+                <div class="logo-box">
+                    <a href="index.html"><img src="image/Logo.png" alt="logo.png"></a>
+                </div>
+                <div class="nav-box">
+                    <ul>
+                        <li><a href="index.html" class="text-black">HOME</a></li>
+                        <li><a href="contact-us.html" class="text-black">CONTACT-US</a></li>
+                        <li><a href="#" class="text-black">TRAVEL INFO</a></li>
+                        <li><a href="about-us.html" class="text-black">ABOUT US</a></li>
+                        <li><a href="tel:+18884169916" class="bg-[#0636a6] px-[20px] py-[10px]"><i class="fa-solid fa-phone"></i> +1
+                                888-416-9916</a></li>
+                    </ul>
+                </div>
+                <div class="menu-box">
+                    <a href="javascript:void(0);" title="Menu" class="menu-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="relative">
+        <div class="slider ">
+            <div class="owl-carousel owl-theme" id="banner-slider">
+                <div class="item">
+                    <div class="inner-box w-full p-0 border-0 relative">
+                        <img src="https://images.pexels.com/photos/163771/airport-airplanes-gates-flight-line-163771.jpeg?cs=srgb&dl=pexels-pixabay-163771.jpg&fm=jpg"
+                            alt="">
+                        <div class="cantent-box p-4 absolute right-[16%] top-[43%] w-[19%] pb-[50px]">
+                            <p>UNITED MILEAGEPLUS CARDS</p>
+                            <h2 class="m-0">Offers up to 80,000 bonus miles.</h2>
+                            <a href="tel:+18884169916">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner-box w-full p-0 border-0 relative">
+                        <img src="https://images.pexels.com/photos/163771/airport-airplanes-gates-flight-line-163771.jpeg?cs=srgb&dl=pexels-pixabay-163771.jpg&fm=jpg"
+                            alt="">
+                        <div class="cantent-box p-4 absolute right-[16%] top-[43%] w-[19%] pb-[50px]">
+                            <p>SALEM TO SLEEPY HOLLOW</p>
+                            <h2 class="m-0">Witch flight will you choose this Halloween?</h2>
+                            <a href="tel:+18884169916">Book Now <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner-box w-full p-0 border-0 relative">
+                        <img src="https://images.pexels.com/photos/163771/airport-airplanes-gates-flight-line-163771.jpeg?cs=srgb&dl=pexels-pixabay-163771.jpg&fm=jpg"
+                            alt="">
+                        <div class="cantent-box p-4 absolute right-[16%] top-[43%] w-[19%] pb-[50px]">
+                            <p>START PLANNING 2023</p>
+                            <h2 class="m-0">Choose from more transatlantic flights than any other U.S. airline.</h2>
+                            <a href="tel:+18884169916">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="inner-box w-full p-0 border-0 relative">
+                        <img src="https://images.pexels.com/photos/163771/airport-airplanes-gates-flight-line-163771.jpeg?cs=srgb&dl=pexels-pixabay-163771.jpg&fm=jpg"
+                            alt="">
+                        <div class="cantent-box p-4 absolute right-[16%] top-[43%] w-[19%] pb-[50px]">
+                            <p>HELP FEED COMMUNITIES</p>
+                            <h2 class="m-0">Earn 5 total miles per dollar when you donate to select nonprofits.</h2>
+                            <a href="tel:+18884169916">Learn More <i class="fa-solid fa-chevron-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        <div id="main-from" class="max-w-[568px] absolute top-[20%] left-[20%] z-[2]">
+            <ul class="resp-tabs-list hor_1">
+                <li class="w-1/4 text-center">Book</li>
+                <li class="w-1/4 text-center">Flight status</li>
+                <li class="w-1/4 text-center">Check-in</li>
+                <li class="w-1/4 text-center">My trips</li>
+            </ul>
+            <div class="resp-tabs-container hor_1">
+                <div>
+                    <div id="sub-from">
+                        <ul class="resp-tabs-list hor_2">
+                            <li>FLIGHT</li>
+                            <li>HOTEL</li>
+                            <li>CAR</li>
+                            <li>PACKAGES</li>
+                        </ul>
+                        <div class="resp-tabs-container hor_2">
+                            <div>
+                                <div class="inner-box mt-[19px]">
+                                    <div class="redio-line ">
+                                        <form action="" class="round-trip flex justify-between items-center">
+                                            <div>
+                                                <input type="radio" id="one-way" name="one-way" value="one-way">
+                                                <label for="one-way">Roundtrip</label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" id="one-way" name="one-way" value="one-way">
+                                                <label for="one-way">One-way</label>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="miles" name="miles" value="book-with-miles">
+                                                <label for="miles"> Book with miles</label><br>
+                                            </div>
+                                            <div>
+                                                <input type="checkbox" id="flexible" name="flexible"
+                                                    value="flexible-date">
+                                                <label for="flexible"> Flexible dates</label><br>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="from-to-line mt-[24px]">
+                                        <form action="" class="flex justify-between items-center">
+                                            <div class="mr-[20px] relative">
+                                                <label for="from" class="block w-min">From*</label>
+                                                <input type="text" name="from" id="from"
+                                                    class="text-[24px] w-full border-b border-black"
+                                                    placeholder="From*">
+                                            </div>
+                                            <img src="image/ARROW.svg" alt="arrow">
+                                            <div class="ml-[20px] relative">
+                                                <label for="to" class="block">To*</label>
+                                                <input type="text" name="to" id="to"
+                                                    class="text-[24px] w-full border-b border-black" placeholder="To">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="date flex justify-between items-center mt-[25px]">
+                                        <form action=""
+                                            class="flex items-center border-b border-black w-[54%] sm:w-[44%]">
+                                            <div>
+                                                <label for="month block w-max">Dates*</label>
+                                                <select name="month" id="month" class="text-[24px]">
+                                                    <option value="JAN">JAN</option>
+                                                    <option value="FEB">FEB</option>
+                                                    <option value="MAR">MAR</option>
+                                                    <option value="APR">APR</option>
+                                                    <option value="MAY">MAY</option>
+                                                    <option value="JUN">JUN</option>
+                                                    <option value="JULY">JULY</option>
+                                                    <option value="AUG">AUG</option>
+                                                    <option value="OCT">OCT</option>
+                                                    <option value="NOV">NOV</option>
+                                                    <option value="DEC">DEC</option>
+                                                </select>
+                                            </div>
+                                            <select name="days" id="days" class="text-[24px] mt-[20px]">
+                                                <option value="0">0 days</option>
+                                                <option value="1">1 days</option>
+                                                <option value="2">2 days</option>
+                                                <option value="3">3 days</option>
+                                                <option value="4">4 days</option>
+                                                <option value="5">5 days</option>
+                                                <option value="6">6 days</option>
+                                                <option value="7">7 days</option>
+                                                <option value="8">8 days</option>
+                                                <option value="9">9 days</option>
+                                                <option value="10">10 days</option>
+                                                <option value="11">11 days</option>
+                                                <option value="12">12 days</option>
+                                                <option value="13">13 days</option>
+                                                <option value="14">14 days</option>
+                                                <option value="15">15 days</option>
+                                                <option value="16">16 days</option>
+                                                <option value="17">17 days</option>
+                                                <option value="18">18 days</option>
+                                                <option value="19">19 days</option>
+                                                <option value="20">20 days</option>
+                                                <option value="21">21 days</option>
+                                                <option value="22">22 days</option>
+                                                <option value="23">23 days</option>
+                                                <option value="24">24 days</option>
+                                                <option value="25">25 days</option>
+                                                <option value="30">30 days</option>
+                                                <option value="60">60 days</option>
+                                                <option value="90">90 days</option>
+                                                <option value="120">120 days</option>
+                                                <option value="180">180 days</option>
+                                            </select>
+                                        </form>
+                                        <form action="" class="w-[54%] sm:w-[44%]">
+                                            <label for="passenger block w-min ">passenger</label>
+                                            <input type="number" name="passenger" id="passenger"
+                                                class="text-[24px] w-full  border-b border-black">
+                                        </form>
+                                    </div>
+                                    <div class="profile flex justify-between items-center mt-[25px]">
+                                        <form action="" class="flex justify-between items-center">
+                                            <div class="sm:mr-[30px] relative">
+                                                <label for="from" class="block w-min">Name*</label>
+                                                <input type="text" name="from" id="from"
+                                                    class="text-[24px] w-full border-b border-black"
+                                                    placeholder="Name*">
+                                            </div>
+                                            <div class="sm:ml-[30px] relative">
+                                                <label for="to" class="block">Contact No</label>
+                                                <input type="text" name="to" id="to"
+                                                    class="text-[24px] w-full border-b border-black"
+                                                    placeholder="Contact No">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="economy">
+                                        <form action="">
+                                            <select name="economy" id="economy"
+                                                class="text-[24px] border-b border-black mt-[25px]">
+                                                <option value="economy">Economy</option>
+                                                <option value="Premium-economy">Premium economy</option>
+                                                <option value="Business">Business or Frist</option>
+                                            </select>
+                                        </form>
+                                    </div>
+                                    <div class="submit mt-[25px] flex items-center justify-between">
+                                        <div class="left mr-3">
+                                            <a href="tel:+18884169916"
+                                                class="inline-block text-[12px] text-[#2172ba]">Advance </a>
+                                            <p class=" min-h-min text-[12px] mb-[15px]">(Certificates, multi-city and
+                                                upgrades)</p>
+                                            <p class="min-h-min text-[12px]"><a href="tel:+18884169916"
+                                                    class="border-b">Bag rules</a>
+                                                and
+                                                <a href="tel:+18884169916" class="border-b">fees for optional
+                                                    services</a>
+                                            </p>
+                                        </div>
+                                        <div class="right ml-3">
+                                            <Button data-toggle="modal" data-target="#formModel"
+                                                class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white">Find
+                                                Flights</Button>
+
+                                            <Button data-toggle="modal" data-target="#formModel"
+                                                class="py-3 px-4 text-[16px] block text-center border border-[#6244bb] text-[#6244bb] rounded mt-2 text-[15px   ]"><img
+                                                    src="image/btn-img.svg" alt="btn-img" class="inline-block"> Find
+                                                your travel credits</Button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="inner-box">
+                                    <div class="form flex justify-between items-center">
+                                        <div class="mr-[20px] w-[50%]">
+                                            <label for="from" class="block w-min">Name</label>
+                                            <input type="text" name="from" id="from"
+                                                class="text-[24px] w-full border-b border-black" placeholder="Name">
+                                        </div>
+                                        <div class="ml-[20px] w-[50%]">
+                                            <label for="from" class="block w-max">Going to*</label>
+                                            <input type="text" name="from" id="from"
+                                                class="text-[24px] w-full border-b border-black"
+                                                placeholder="Going to*">
+                                        </div>
+                                    </div>
+                                    <div class="form flex justify-between items-center mt-[20px]">
+                                        <div class="mr-[20px] w-[50%]">
+                                            <label for="from" class="block w-max">No of travelers</label>
+                                            <input type="number" name="from" id="from"
+                                                class="text-[24px] w-full border-b border-black">
+                                        </div>
+                                        <div class="ml-[20px] w-[50%]">
+                                            <label for="room" class="block w-max">No of Rooms</label>
+                                            <select name="room" id="room"
+                                                class="text-[24px] w-full border-b border-black">
+                                                <option value="1">1 Room</option>
+                                                <option value="1">2 Rooms</option>
+                                                <option value="1">3 Rooms</option>
+                                                <option value="1">4 Rooms</option>
+                                                <option value="1">5 Rooms</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="mt-[20px]">
+                                        <label for="from" class="block w-min">dates</label>
+                                        <div class="flex justify-between items-center">
+                                            <input placeholder="Check-in"
+                                                class="textbox-n text-[24px] border-b border-black w-[50%] mr-[20px]"
+                                                type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+                                                id="date" />
+                                            <P>-</P>
+                                            <input placeholder="Check-out"
+                                                class="textbox-n text-[24px] border-b border-black w-[50%] ml-[20px]"
+                                                type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+                                                id="date" />
+                                        </div>
+                                    </div>
+                                    <div class="btn ml-[55%] mt-[20px]">
+                                        <div class="left">
+                                            <input type="checkbox" name="miles" id="miles" class="mr-[10px]">
+                                            <label for="miles">Book with miles</label>
+                                        </div>
+                                        <div class="right mt-[10px]">
+                                            <Button data-toggle="modal" data-target="#formModel"
+                                                class="py-2 px-4 bg-[#6244bb] block text-center text-[#ffffff]">Find
+                                                hotels</Button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div>
+                                <div class="inner-box">
+                                    <div class="form flex justify-between items-center">
+                                        <div class="mr-[20px] w-[50%]">
+                                            <label for="from" class="block w-min">Name</label>
+                                            <input type="text" name="from" id="from"
+                                                class="text-[24px] w-full border-b border-black" placeholder="Name">
+                                        </div>
+                                        <div class="ml-[20px] w-[50%]">
+                                            <label for="from" class="block w-max">Conyact No</label>
+                                            <input type="text" name="from" id="from"
+                                                class="text-[24px] w-full border-b border-black"
+                                                placeholder="Contact No*">
+                                        </div>
+                                    </div>
+                                    <div class="form flex justify-between items-center mt-[20px]">
+                                        <div class="mr-[20px] w-[50%]">
+                                            <label for="from" class="block w-max">Pick Up*</label>
+                                            <input placeholder="Pick-up"
+                                                class="textbox-n text-[24px] border-b border-black w-full mr-[20px]"
+                                                type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+                                                id="date" />
+                                        </div>
+                                        <div class="ml-[20px] w-[50%]">
+                                            <label for="from" class="block w-max">Drop Off</label>
+                                            <input placeholder="Drop-off"
+                                                class="textbox-n text-[24px] border-b border-black w-full mr-[20px]"
+                                                type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+                                                id="date" />
+                                        </div>
+                                    </div>
+                                    <div class="form flex justify-between items-center mt-[20px]">
+                                        <div class="mr-[20px] w-[50%]">
+                                            <label for="from" class="block w-max">Pick-Up Location</label>
+                                            <input type="text" name="from" id="from"
+                                                class="text-[24px] w-full border-b border-black"
+                                                placeholder="Pick-up Location">
+                                        </div>
+                                        <div class="ml-[20px] w-[50%]">
+                                            <label for="from" class="block w-max">Drop-off Location</label>
+                                            <input type="text" name="from" id="from"
+                                                class="text-[24px] w-full border-b border-black"
+                                                placeholder="Drop-off Location">
+                                        </div>
+                                    </div>
+                                    <div class="btn flex justify-between items-center mt-[20px]">
+                                        <div class="left w-2/4 mr-[20px]">
+                                            <img src="image/car-img.svg" alt="car-img" class="mb-[10px]">
+                                            <p class="text-[12px]">MileagePlus members get special savings on rentals
+                                                and
+                                                earn miles.</p>
+                                        </div>
+                                        <div class="right w-2/4 ml-[20px]">
+                                            <input type="checkbox" name="miles" id="miles" class="mr-[10px]">
+                                            <label for="miles">Book with miles</label>
+                                            <Button data-toggle="modal" data-target="#formModel"
+                                                class="py-2 px-4 bg-[#6244bb] block text-center text-[#ffffff]">Find
+                                                Cars</Button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="inner-box">
+                                    <div class=" mt-[24px]">
+                                        <form action="" class="round-trip flex justify-between items-center">
+                                            <div>
+                                                <input type="radio" id="one-way" name="one-way" value="one-way">
+                                                <label for="one-way">Flight and Hotel</label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" id="one-way" name="one-way" value="one-way">
+                                                <label for="one-way">Flight,Hotel and Car</label>
+                                            </div>
+                                            <div>
+                                                <input type="radio" id="one-way" name="one-way" value="one-way">
+                                                <label for="one-way">Flight and Car</label>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="from-to-line mt-[24px]">
+                                        <form action="" class="flex justify-between items-center">
+                                            <div class="mr-[20px] relative">
+                                                <label for="from" class="block w-min">From*</label>
+                                                <input type="text" name="from" id="from"
+                                                    class="text-[24px] w-full border-b border-black"
+                                                    placeholder="From*">
+                                            </div>
+                                            <img src="image/ARROW.svg" alt="arrow">
+                                            <div class="ml-[20px] relative">
+                                                <label for="to" class="block">To*</label>
+                                                <input type="text" name="to" id="to"
+                                                    class="text-[24px] w-full border-b border-black" placeholder="To">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="mt-[20px]">
+                                        <label for="from" class="block w-min">dates</label>
+                                        <div class="flex justify-between items-center">
+                                            <input placeholder="Check-in"
+                                                class="textbox-n text-[24px] border-b border-black w-[50%] mr-[20px]"
+                                                type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+                                                id="date" />
+                                            <P>-</P>
+                                            <input placeholder="Check-out"
+                                                class="textbox-n text-[24px] border-b border-black w-[50%] ml-[20px]"
+                                                type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+                                                id="date" />
+                                        </div>
+                                    </div>
+                                    <div class="name mt-[30px]">
+                                        <form action="" class="flex justify-between items-center">
+                                            <div class="mr-[20px] relative">
+                                                <label for="from" class="block w-min">Name</label>
+                                                <input type="text" name="from" id="from"
+                                                    class="text-[24px] w-full border-b border-black"
+                                                    placeholder="Full Name">
+                                            </div>
+                                            <div class="ml-[20px] relative">
+                                                <label for="to" class="block">Contact No</label>
+                                                <input type="text" name="to" id="to"
+                                                    class="text-[24px] w-full border-b border-black"
+                                                    placeholder="Contact No">
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="form flex justify-between items-center mt-[20px]">
+                                        <div class="mr-[20px] w-[50%]">
+                                            <label for="from" class="block w-max">No of travelers</label>
+                                            <input type="number" name="from" id="from"
+                                                class="text-[24px] w-full border-b border-black"
+                                                placeholder="No of travelers">
+                                        </div>
+                                        <div class="ml-[20px] w-[50%]">
+                                            <label for="room" class="block w-max">No of Rooms</label>
+                                            <select name="room" id="room"
+                                                class="text-[24px] w-full border-b border-black">
+                                                <option value="1">1 Room</option>
+                                                <option value="1">2 Rooms</option>
+                                                <option value="1">3 Rooms</option>
+                                                <option value="1">4 Rooms</option>
+                                                <option value="1">5 Rooms</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="mt-[20px] ml-[50%]">
+                                        <Button data-toggle="modal" data-target="#formModel"
+                                            class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white ">search</Button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="inner-box">
+                        <h2 class="my-[24px] text-[24px]">Flight Status</h2>
+                        <div class="form flex justify-between items-center">
+                            <div class="mr-[20px] w-[50%]">
+                                <label for="from" class="block w-min">From</label>
+                                <input type="text" name="from" id="from"
+                                    class="text-[24px] w-full border-b border-black" placeholder="From">
+                            </div>
+                            <div class="m-[20px] w-[50%]">
+                                <label for="from" class="block w-max">To</label>
+                                <input type="text" name="from" id="from"
+                                    class="text-[24px] w-full border-b border-black" placeholder="To">
+                            </div>
+                        </div>
+                        <p>and/or</p>
+                        <div class="form flex justify-between items-center">
+                            <div class="mr-[20px] w-[50%]">
+                                <label for="from" class="block w-max">Flight number</label>
+                                <input type="text" name="from" id="from"
+                                    class="text-[24px] w-full border-b border-black" placeholder="Flight no.">
+                            </div>
+                            <div class="m-[20px] w-[50%]">
+                                <label for="from" class="block w-max">Date</label>
+                                <input type="date" name="from" id="from"
+                                    class="text-[24px] w-full border-b border-black">
+                            </div>
+                        </div>
+                        <div class="btn flex justify-between items-center">
+                            <div class="left w-[50%] text-[15px] pr-[10px]">
+                                <a href="tel:+18884169916">Receive flight status notifications by email or text
+                                    message</a>
+                            </div>
+                            <div class="right w-[50%]">
+                                <Button data-toggle="modal" data-target="#formModel"
+                                    class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white mr-[20px]">search</Button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="inner-box">
+                        <h2 class="my-[24px] text-[24px]">Check in</h2>
+                        <div class="form">
+                            <div class="mt-[20px]">
+                                <label for="from" class="block w-max">Confirmation or ticket number*</label>
+                                <input type="text" name="from" id="from"
+                                    class="text-[24px] w-full border-b border-black" placeholder="Confirmation number*">
+                            </div>
+                        </div>
+                        <div class="form">
+                            <div class="mt-[20px]">
+                                <label for="from" class="block w-max">Last name*</label>
+                                <input type="text" name="from" id="from"
+                                    class="text-[24px] w-full border-b border-black" placeholder="Last name*">
+                            </div>
+                        </div>
+                        <div class="btn flex justify-between items-center mt-[20px]">
+                            <div class="left w-[50%] text-[15px] pr-[10px]">
+                                <a href="tel:+18884169916">Check in with your MileagePlus number</a>
+                            </div>
+                            <div class="right w-[50%]">
+                                <Button data-toggle="modal" data-target="#formModel"
+                                    class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white mr-[20px]">search</Button>
+                            </div>
+                        </div>
+                        <div class="end-line mt-[20px]">
+                            <p class="text-[13px]">Check-in is available starting 24 hours before your scheduled
+                                departure.
+                                See our <a href="tel:+18884169916">Check-in and Airport Processing Times</a> page for
+                                details.</p>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="inner-box">
+                        <h2 class="my-[24px] text-[24px]">My Trips </h2>
+                        <div class="form">
+                            <div class="mt-[20px]">
+                                <label for="from" class="block w-max">Confirmation number*</label>
+                                <input type="text" name="from" id="from"
+                                    class="text-[24px] w-full border-b border-black" placeholder="Confirmation number*">
+                            </div>
+                        </div>
+                        <div class="form">
+                            <div class="mt-[20px]">
+                                <label for="from" class="block w-max">Last name*</label>
+                                <input type="text" name="from" id="from"
+                                    class="text-[24px] w-full border-b border-black" placeholder="Last name*">
+                            </div>
+                        </div>
+                        <div class="btn flex justify-between items-center mt-[20px]">
+
+                            <div class="right w-[50%]">
+                                <Button data-toggle="modal" data-target="#formModel"
+                                    class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white mr-[20px]">search</Button>
+                            </div>
+                            <div class="left w-[50%] text-[15px] pr-[10px]">
+                                <a href="tel:+18884169916">Check in with your MileagePlus number</a>
+                            </div>
+                        </div>
+                        <div class="end-line mt-[20px]">
+                            <p class="text-[13px]">Looking for past or canceled flights?<Button data-toggle="modal"
+                                    data-target="#formModel">Sign in.</Button></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="trip">
+        <div class="container">
+            <div class="title">
+                <h2>
+                    Trip planning made easier
+                </h2>
+            </div>
+            <div class="flex gap-[30px]">
+
+                <div class="box">
+                    <img src="https://images.pexels.com/photos/335393/pexels-photo-335393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                    <br>
+                    <h3>American Airlines</h3>
+                    <br>
+                    <p>American Airlines has been one of the most iconic airlines in the United States for over 80
+                        years. With a fleet of more than 700 aircraft, American Airlines offers travelers a wide range
+                        of services and amenities. In this blog post, we will explore some of the unique features of
+                        American Airlines and how they have helped make the airline one of the most successful in the
+                        world. From their route network to customer service, learn about what makes American Airlines an
+                        exceptional carrier they have helped.</p>
+                    <a href="tel:+18884169916" class="mt-[20px]">Call Us</a>
+                </div>
+                <div class="box">
+                    <img src="https://images.pexels.com/photos/7316857/pexels-photo-7316857.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                        alt="">
+                    <br>
+                    <h3>Delta Airlines</h3>
+                    <br>
+                    <p>Delta Airlines is one of the most well-known airlines in the world. It has a reputation for being
+                        one of the best value carriers, with fares that are often lower than those of other major
+                        airlines. Delta Airlines was founded in 1971 and is
+                        headquartered in Atlanta, Georgia. The airline operates over 560 flights daily to more than 100
+                        destinations in North America, Central America, South America, Europe, Asia Pacific, and Africa.
+                        Delta Airlines is a member of the SkyTeam alliance.
+                    </p>
+                    <a href="tel:+18884169916" class="mt-[20px]">Call Us</a>
+                </div>
+                <div class="box">
+                    <img src="https://images.pexels.com/photos/62623/wing-plane-flying-airplane-62623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="">
+                    <br>
+                    <h3>United Airlines
+                    </h3>
+                    <br>
+                    <p>If you’re looking for a company that has had its share of controversy, United Airlines is
+                        definitely one of the top contenders. Whether it be over airport security or their handling of
+                        passenger issues, United Airlines has been in the news quite a bit lately. Given all of this
+                        attention, it’s no wonder that consumers are wondering what United Airlines is all about. In
+                        this blog post, we will provide an overview of United Airlines and its history, as well as some
+                        of the recent controversies they’ve been involved in.
+
+                    </p>
+                    <a href="tel:+18884169916" class="mt-[20px]">Call Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="round-trip">
+        <div class="container">
+            <div class="title">
+                <h2>Our customers saved this week:</h2>
+            </div>
+            <div class="row ">
+                <div class="col-md-4">
+                    <div class="h-full relative cuba  rounded-[20px] border">
+                        <div
+                            class="contact flex justify-between items-center w-full absolute left-0 bottom-0 px-[20px] py-[10px] bg-[#ffffff] rounded-b-[18px] ">
+                            <div class="detail">
+                                <h3 class="text-[22px] font-[600] mb-[10px]">Cuba</h3>
+                                <p class="text-[15px] mb-[10px]">Round Trip | Feb 1 - Feb 15</p>
+                                <h4 class="text-[20px] font-[600]">$230.99</h4>
+                            </div>
+                            <div class="button">
+                                <a href="#" class="px-[20px] py-[10px] bg-[#0635a650]">Inquiry Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="h-full relative california  rounded-[20px] border">
+                        <div
+                            class="contact flex justify-between items-center w-full absolute left-0 bottom-0 px-[20px] py-[10px] bg-[#ffffff] rounded-b-[18px] ">
+                            <div class="detail">
+                                <h3 class="text-[22px] font-[600] mb-[10px]">California</h3>
+                                <p class="text-[15px] mb-[10px]">Round Trip | Feb 1 - Feb 15</p>
+                                <h4 class="text-[20px] font-[600]">$230.99</h4>
+                            </div>
+                            <div class="button">
+                                <a href="#" class="px-[20px] py-[10px] bg-[#0635a650]">Inquiry Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 rounded-[20px] ">
+                    <div class="slider">
+                        <div class="item">
+                            <div
+                                class="slider-box flex justify-between items-center px-[20px] py-[10px] border rounded mb-[10px]">
+                                <div class="img ">
+                                    <img src="image/New-Zealand.jpg" alt="" class="rounded-[60px] w-[60px]">
+                                </div>
+                                <div class="left">
+                                    <h3 class="title mb-[10px] text-[22px] font-[600]">New Zealand</h3>
+                                    <P>Sky Team</P>
+                                </div>
+                                <div class="button">
+                                    <p class="price">$230.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                class="slider-box flex justify-between items-center px-[20px] py-[10px] border rounded mb-[10px]">
+                                <div class="img ">
+                                    <img src="image/New-York.jpg" alt="" class="rounded-[60px] w-[60px]">
+                                </div>
+                                <div class="left">
+                                    <h3 class="title mb-[10px] text-[22px] font-[600]">New York</h3>
+                                    <p>Virgin Airline</p>
+                                </div>
+                                <div class="button">
+                                    <p class="price">$230.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                class="slider-box flex justify-between items-center px-[20px] py-[10px] border rounded mb-[10px]">
+                                <div class="img ">
+                                    <img src="image/chicago.jpg" alt="" class="rounded-[60px] w-[60px]">
+                                </div>
+                                <div class="left">
+                                    <h3 class="title mb-[10px] text-[22px] font-[600]">Chicago</h3>
+                                    <p>Brussels Airline</p>
+                                </div>
+                                <div class="button">
+                                    <p class="price">$230.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                class="slider-box flex justify-between items-center px-[20px] py-[10px] border rounded mb-[10px]">
+                                <div class="img ">
+                                    <img src="image/New-Zealand.jpg" alt="" class="rounded-[60px] w-[60px]">
+                                </div>
+                                <div class="left">
+                                    <h3 class="title mb-[10px] text-[22px] font-[600]">Larlega</h3>
+                                    <p>Philippine Airline</p>
+                                </div>
+                                <div class="button">
+                                    <p class="price">$230.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                class="slider-box flex justify-between items-center px-[20px] py-[10px] border rounded mb-[10px]">
+                                <div class="img ">
+                                    <img src="image/bagoda.png" alt="" class="rounded-[60px] w-[60px]">
+                                </div>
+                                <div class="left">
+                                    <h3 class="title mb-[10px] text-[22px] font-[600]">Bagota</h3>
+                                    <p>Sky Team</p>
+                                </div>
+                                <div class="button">
+                                    <p class="price">$230.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                class="slider-box flex justify-between items-center px-[20px] py-[10px] border rounded mb-[10px]">
+                                <div class="img ">
+                                    <img src="image/Brazil.jpg" alt="" class="rounded-[60px] w-[60px]">
+                                </div>
+                                <div class="left">
+                                    <h3 class="title mb-[10px] text-[22px] font-[600]">Brazil</h3>
+                                    <p>ITA Airline</p>
+                                </div>
+                                <div class="button">
+                                    <p class="price">$230.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                class="slider-box flex justify-between items-center px-[20px] py-[10px] border rounded mb-[10px]">
+                                <div class="img ">
+                                    <img src="image/siopolo.jpeg" alt="" class="rounded-[60px] w-[60px]">
+                                </div>
+                                <div class="left">
+                                    <h3 class="title mb-[10px] text-[22px] font-[600]">Sipolo</h3>
+                                    <p>Sky Team</p>
+                                </div>
+                                <div class="button">
+                                    <p class="price">$230.99</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div
+                                class="slider-box flex justify-between items-center px-[20px] py-[10px] border rounded mb-[10px]">
+                                <div class="img ">
+                                    <img src="image/boston.jpg" alt="" class="rounded-[60px] w-[60px]">
+                                </div>
+                                <div class="left">
+                                    <h3 class="title mb-[10px] text-[22px] font-[600]">Boston</h3>
+                                    <p>Royal Jordanian</p>
+                                </div>
+                                <div class="button">
+                                    <p class="price">$230.99</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-to-us">
+        <div class="container py-[20px]">
+            <div class="call-box text-center text-[28px]">
+                <a href="#"><i class="fa-solid fa-phone mr-[10px] px-[15px] py-[15px] rounded-[50px] bg-[#000000] text-[#ffffff]"></i> Call us at (Toll Free Number) 000-800-040-2458 to get great deals!</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="call-center">
+        <div class="container">
+            <div class="title">
+                <h2>Why to Book with Call Center</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="support-box flex items-center justify-between px-[20px] py-[10px] border rounded">
+                        <div class="icon">
+                            <img src="image/confirmation.png" alt="" class="w-[35%]">
+                        </div>
+                        <div class="contant">
+                            <p>Immediate</p>
+                            <h3>booking confirmation</h3>
+                        </div>        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="support-box flex items-center justify-between px-[20px] py-[10px] border rounded">
+                        <div class="icon">
+                            <img src="image/expert.svg" alt="" class="w-[70%]">
+                        </div>
+                        <div class="contant">
+                            <p>Expert guidance by our</p>
+                            <h3>Travel Experts</h3>
+                        </div>        
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <div class="support-box flex items-center justify-between px-[20px] py-[10px] border rounded">
+                        <div class="icon">
+                            <img src="image/24-hours.png" alt="" class="w-[35%]">
+                        </div>
+                        <div class="contant">
+                            <p>24-hour</p>
+                            <h3>cancellation</h3>
+                        </div>        
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="support-box flex items-center justify-between px-[20px] py-[10px] border rounded">
+                        <div class="icon">
+                            <img src="image/flexiblle-payment.svg" class="w-[70%]">
+                        </div>
+                        <div class="contant">
+                            <p>plans</p>
+                            <h3>Flexible payment</h3>
+                        </div>        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="review">
+        <div class="container">
+            <div class="title">
+                <h2>What Our Customers Say About Our Service?</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-[30px]">
+                    <div class="review-box p-[15px] rounded-[10px] border">
+                        <div class="star text-[#fbb610] mb-[8px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review-detail border-b mb-[8px] pb-[8px]">
+                            <p>Great experience buying tickets from you. I will buy it again for my next travel. -</p>
+                        </div>
+                        <div class="name">
+                            <p><span class="font-[600]">Richard,</span>Sep 28, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-[30px]">
+                    <div class="review-box p-[15px] rounded-[10px] border">
+                        <div class="star text-[#fbb610] mb-[8px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review-detail border-b mb-[8px] pb-[8px]">
+                            <p>Great experience buying tickets from you. I will buy it again for my next travel. -</p>
+                        </div>
+                        <div class="name">
+                            <p><span class="font-[600]">Richard,</span>Sep 28, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-[30px]">
+                    <div class="review-box p-[15px] rounded-[10px] border">
+                        <div class="star text-[#fbb610] mb-[8px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review-detail border-b mb-[8px] pb-[8px]">
+                            <p>Great experience buying tickets from you. I will buy it again for my next travel. -</p>
+                        </div>
+                        <div class="name">
+                            <p><span class="font-[600]">Richard,</span>Sep 28, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-[30px]">
+                    <div class="review-box p-[15px] rounded-[10px] border">
+                        <div class="star text-[#fbb610] mb-[8px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review-detail border-b mb-[8px] pb-[8px]">
+                            <p>Great experience buying tickets from you. I will buy it again for my next travel. -</p>
+                        </div>
+                        <div class="name">
+                            <p><span class="font-[600]">Richard,</span>Sep 28, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-[30px]">
+                    <div class="review-box p-[15px] rounded-[10px] border">
+                        <div class="star text-[#fbb610] mb-[8px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review-detail border-b mb-[8px] pb-[8px]">
+                            <p>Great experience buying tickets from you. I will buy it again for my next travel. -</p>
+                        </div>
+                        <div class="name">
+                            <p><span class="font-[600]">Richard,</span>Sep 28, 2022</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-[30px]">
+                    <div class="review-box p-[15px] rounded-[10px] border">
+                        <div class="star text-[#fbb610] mb-[8px]">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="review-detail border-b mb-[8px] pb-[8px]">
+                            <p>Great experience buying tickets from you. I will buy it again for my next travel. -</p>
+                        </div>
+                        <div class="name">
+                            <p><span class="font-[600]">Richard,</span>Sep 28, 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <div class="modal fade" id="flightModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <a href="tel:+18884169916">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body modal-background-img">
+                    </div>
+                </div>
+            </div>
+        </a>
+
+    </div>
+
+    <div class="modal fade" id="formModel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Confirm Your Identity</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="contact.php" method="post">
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <label for="name" class="col-form-label">Your Name:</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Phone Number:</label>
+                            <input type="text" class="form-control" id="phonenumber" name="phonenumber">
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="submit" name="submit" class="btn btn-outline-secondary">Verify</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-[#e6e6e6]">
+        <div class="container">
+            <div class="lang-line border-b-[1px] border-[#d4d4d0] py-[24px]">
+                <div class="inner text-center text-[12px]">
+                    <i class="fa-solid fa-globe text-[16px] mr-[10px]"></i>
+                    <a href="tel:+18884169916">English - United States $</a>
+                    <span>|</span>
+                    <P class="inline">Espanol</P>
+                </div>
+
+            </div>
+            <div class="sitelink border-b-[1px] border-[#d4d4d0] py-[24px]">
+                <div class="inner">
+                    <ul class="flex flex-wrap">
+                        <li class="w-1/4"><a href="privacy policy.html">privacy policy</a></li>
+                        <li class="w-1/4"><a href="united-air-line.html">United Airlines</a></li>
+                        <li class="w-1/4"><a href="tel:+18884169916">Delta Airline</a></li>
+                        <li class="w-1/4"><a href="tel:+18884169916">American Airlines</a></li>
+                        <li class="w-1/4"><a href="tel:+18884169916">Lengthy tarmac delay plan</a></li>
+                        <li class="w-1/4"><a href="tel:+18884169916">Our United Customer Commitment</a></li>
+                        <li class="w-1/4"><a href="tel:+18884169916">Privacy Policy</a></li>
+                        <li class="w-1/4"><a href="tel:+18884169916">Cargo</a></li>
+                        <li class="w-1/4"><a href="tel:+18884169916">Help Center</a></li>
+                        <li class="w-1/4"><a href="tel:+18884169916">Interest Based Ads</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card-payment my-[30px]">
+                <div class=" flex justify-between items-center bg-transparent">
+                    <img src="image/IATA_logo.svg" alt="" class="w-[100px]">
+                    <img src="image/american-express.svg" alt="" class="w-[100px]">
+                    <img src="image/Verified-by-visa-logo.svg" alt="" class="w-[100px]">
+                    <img src="image/Mastercard_SecureCode_2016.svg" alt="" class="w-[100px]">
+                    <img src="image/Diners_Club_Logo3.svg" alt="" class="w-[100px]">
+                    <img src="image/latan.png" alt="" class="w-[100px]">
+                    <img src="image/Airlines_Reporting_Corporation.jpg" alt="" class="w-[100px]">
+                </div>
+            </div>
+            <div class="lastline py-[24px]">
+                <div class="search text-center">
+                    <Button data-toggle="modal" data-target="#formModel" class="text-[22px] text-[#627a88]"><i
+                            class="fa-solid fa-magnifying-glass mr-[10px] text-[22px]"></i>Search for a topic</Button>
+                </div>
+                <div class="social mt-[40px]">
+                    <h2 class="text-center mb-[15px]">STAY CONNECTED</h2>
+                    <ul class="flex mx-auto w-max items-end">
+                        <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/phone.svg" alt=""></a></li>
+                        <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/hub-img.svg" alt=""></a></li>
+                        <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/facebook.svg" alt=""></a></li>
+                        <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/twitter.svg" alt=""></a></li>
+                        <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/youtube.svg" alt=""></a></li>
+                        <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/instagram.svg" alt=""></a></li>
+                        <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/linkedin.svg" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="indicates mt-[30px] flex items-center justify-between">
+                    <p class="text-[14px]">Indicates an external site that may or may not meet accessibility guidelines.
+                        Copyright © 2022 Myflightickets All rights reserved.
+                    </p>
+                    <img src="image/footer-img.webp" class="w-[15%]" alt="">
+                </div>
+                <div class="buttton text-center mt-[30px]">
+                    <a href="tel:+18884169916" class="px-[20px] py-[10px] font-medium border border-black rounded"> <i
+                            class="fa-solid fa-chevron-right mr-[10px]"></i>CoBrowse</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script/jquery-1.9.1.min.js"></script>
+    <script src="script/easyResponsiveTabs.js"></script>
+    <script src="https://kit.fontawesome.com/884533464b.js" crossorigin="anonymous"></script>
+    <script src="script/owl.carousel.min.js"></script>
+    <script src="script/script.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function () {
+            $('#flightModel').modal('show')
+        });
+    </script>
+</body>
+
+</html>
