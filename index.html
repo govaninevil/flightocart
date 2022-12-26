@@ -167,7 +167,7 @@
                                                     <option value="DEC">DEC</option>
                                                 </select>
                                             </div>
-                                            <select name="days" id="days" class="text-[24px] mt-[20px]">
+                                            <select name="days" id="days" class="text-[24px] mt-[29px]">
                                                 <option value="0">0 days</option>
                                                 <option value="1">1 days</option>
                                                 <option value="2">2 days</option>
@@ -351,7 +351,7 @@
                                                 id="date" />
                                         </div>
                                     </div>
-                                    <div class="form flex justify-between items-center mt-[20px]">
+                                    <div class="form flex justify-between items-center mt-[20px] pick-up">
                                         <div class="mr-[20px] w-[50%]">
                                             <label for="from" class="block w-max">Pick-Up Location</label>
                                             <input type="text" name="from" id="from"
@@ -368,7 +368,7 @@
                                     <div class="btn flex justify-between items-center mt-[20px]">
                                         <div class="left w-2/4 mr-[20px]">
                                             <img src="image/car-img.svg" alt="car-img" class="mb-[10px]">
-                                            <p class="text-[12px]">MileagePlus members get special savings on rentals
+                                            <p class="text-[12px] mile">MileagePlus members get special savings on rentals
                                                 and
                                                 earn miles.</p>
                                         </div>
@@ -503,13 +503,13 @@
                             </div>
                         </div>
                         <div class="btn flex justify-between items-center">
-                            <div class="left w-[50%] text-[15px] pr-[10px]">
-                                <a href="tel:+18884169916">Receive flight status notifications by email or text
+                            <div class="left w-[50%] text-[12px] pr-[10px] text-left">
+                                <a href="tel:+18884169916">Receive flight status notifications<br> by email or text
                                     message</a>
                             </div>
                             <div class="right w-[50%]">
-                                <Button data-toggle="modal" data-target="#formModel"
-                                    class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white mr-[20px]">search</Button>
+                                <a data-toggle="modal" data-target="#formModel"
+                                    class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white mr-[20px]">search</a>
                             </div>
                         </div>
                     </div>
@@ -532,10 +532,10 @@
                             </div>
                         </div>
                         <div class="btn flex justify-between items-center mt-[20px]">
-                            <div class="left w-[50%] text-[15px] pr-[10px]">
+                            <div class="left w-[50%] text-[15px] pr-[10px] mile">
                                 <a href="tel:+18884169916">Check in with your MileagePlus number</a>
                             </div>
-                            <div class="right w-[50%]">
+                            <div class="right w-[22%]">
                                 <Button data-toggle="modal" data-target="#formModel"
                                     class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white mr-[20px]">search</Button>
                             </div>
@@ -567,11 +567,11 @@
                         </div>
                         <div class="btn flex justify-between items-center mt-[20px]">
 
-                            <div class="right w-[50%]">
+                            <div class="right w-%]">
                                 <Button data-toggle="modal" data-target="#formModel"
                                     class="py-3 px-6 text-[18px] block text-center bg-[#6244bb] rounded text-white mr-[20px]">search</Button>
                             </div>
-                            <div class="left w-[50%] text-[15px] pr-[10px]">
+                            <div class="left w-[50%] text-[15px] pr-[10px] mile">
                                 <a href="tel:+18884169916">Check in with your MileagePlus number</a>
                             </div>
                         </div>
@@ -656,11 +656,11 @@
                             class="contact flex justify-between items-center w-full absolute left-0 bottom-0 px-[20px] py-[10px] bg-[#ffffff] rounded-b-[18px] ">
                             <div class="detail">
                                 <h3 class="text-[22px] font-[600] mb-[10px]">Cuba</h3>
-                                <p class="text-[15px] mb-[10px]">Round Trip | Feb 1 - Feb 15</p>
+                                <p class="text-[15px] mb-[10px] round-cuba">Round Trip | Feb 1 - Feb 15</p>
                                 <h4 class="text-[20px] font-[600]">$230.99</h4>
                             </div>
                             <div class="button">
-                                <a href="#" class="px-[20px] py-[10px] bg-[#0635a650]">Inquiry Now</a>
+                                <a href="#" class="px-[20px] py-[10px] bg-[#0635a650] inquiry-btn">Inquiry Now</a>
                             </div>
                         </div>
                     </div>
@@ -671,11 +671,11 @@
                             class="contact flex justify-between items-center w-full absolute left-0 bottom-0 px-[20px] py-[10px] bg-[#ffffff] rounded-b-[18px] ">
                             <div class="detail">
                                 <h3 class="text-[22px] font-[600] mb-[10px]">California</h3>
-                                <p class="text-[15px] mb-[10px]">Round Trip | Feb 1 - Feb 15</p>
+                                <p class="text-[15px] mb-[10px] round-cuba">Round Trip | Feb 1 - Feb 15</p>
                                 <h4 class="text-[20px] font-[600]">$230.99</h4>
                             </div>
                             <div class="button">
-                                <a href="#" class="px-[20px] py-[10px] bg-[#0635a650]">Inquiry Now</a>
+                                <a href="#" class="px-[20px] py-[10px] bg-[#0635a650] inquiry-btn">Inquiry Now</a>
                             </div>
                         </div>
                     </div>
@@ -811,7 +811,7 @@
     <section class="call-to-us">
         <div class="container py-[20px]">
             <div class="call-box text-center text-[28px]">
-                <a href="#"><i class="fa-solid fa-phone mr-[10px] px-[15px] py-[15px] rounded-[50px] bg-[#000000] text-[#ffffff]"></i> Call us at (Toll Free Number) 000-800-040-2458 to get great deals!</a>
+                <a href="#"><i class="fa-solid fa-phone mr-[10px] px-[15px] py-[15px] rounded-[50px] bg-[#000000] text-[#ffffff]"></i><span> Call us at (Toll Free Number) 000-800-040-2458 to get great deals!</span></a>
             </div>
         </div>
     </section>
@@ -836,7 +836,7 @@
                 <div class="col-md-3">
                     <div class="support-box flex items-center justify-between px-[20px] py-[10px] border rounded">
                         <div class="icon">
-                            <img src="image/expert.svg" alt="" class="w-[70%]">
+                            <img src="image/expert.svg" alt="" class="w-[70%] svg">
                         </div>
                         <div class="contant">
                             <p>Expert guidance by our</p>
@@ -859,7 +859,7 @@
                 <div class="col-md-3">
                     <div class="support-box flex items-center justify-between px-[20px] py-[10px] border rounded">
                         <div class="icon">
-                            <img src="image/flexiblle-payment.svg" class="w-[70%]">
+                            <img src="image/flexiblle-payment.svg" class="w-[70%] svg">
                         </div>
                         <div class="contant">
                             <p>plans</p>
@@ -1067,7 +1067,7 @@
                 </div>
             </div>
             <div class="card-payment my-[30px]">
-                <div class=" flex justify-between items-center bg-transparent">
+                <div class=" flex flex-wrap justify-between items-center bg-transparent">
                     <img src="image/IATA_logo.svg" alt="" class="w-[100px]">
                     <img src="image/american-express.svg" alt="" class="w-[100px]">
                     <img src="image/Verified-by-visa-logo.svg" alt="" class="w-[100px]">
@@ -1084,7 +1084,7 @@
                 </div>
                 <div class="social mt-[40px]">
                     <h2 class="text-center mb-[15px]">STAY CONNECTED</h2>
-                    <ul class="flex mx-auto w-max items-end">
+                    <ul class="flex  mx-auto w-max items-end">
                         <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/phone.svg" alt=""></a></li>
                         <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/hub-img.svg" alt=""></a></li>
                         <li class="mx-[10px]"><a href="tel:+18884169916"><img src="image/facebook.svg" alt=""></a></li>

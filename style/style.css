@@ -37,6 +37,10 @@ p{
     background-color: #00000099 !important; 
 }
 /* from */
+::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+  }
 .resp-tabs-list{ 
     border: none !important
 }
@@ -46,14 +50,14 @@ p{
 }
 .resp-tabs-list.hor_1 li{
     margin-right: 0px !important;
-    background-color: #024 !important;
+    background-color: #0632a6 !important;
     color: #ffffff !important;
     font-size: 17px;
     font-weight: normal;
 }
 .resp-tabs-list.hor_2 li{
     margin-right: 0px !important;
-    width: 17%;
+    width: 25%;
     text-align: center;
     background-color: #ffffff !important;
 }
@@ -68,6 +72,10 @@ p{
     border: none !important;
     border-top:1px solid #666 !important;
     padding: 0px !important;
+    background: linear-gradient(90deg, rgba(174,243,178,1) 0%, rgba(72,121,144,1) 100%);
+}
+input,select{
+    background-color: transparent !important;
 }
 .resp-tab-content .inner-box{
     width: 100%;
@@ -103,6 +111,10 @@ p{
 }
 .onboard .container{
     position: relative;
+}
+.card-payment .flex img{
+    
+    mix-blend-mode: darken;
 }
 .onboard .container::before {
     position: absolute;
@@ -390,7 +402,7 @@ header li{
     .menu-open .menu-box{
         top:32px;
     }
-	.menu-box span{display: block;width: 40px; height: 4px;background-color: #ffffff ;margin-bottom: 4px;border-radius: 2px;}
+	.menu-box span{display: block;width: 40px; height: 4px;background-color: #000 ;margin-bottom: 4px;border-radius: 2px;}
 	.nav-box{display: none !important;}
     .menu-open .main-navbar{
         background-color: #000;
@@ -424,6 +436,9 @@ header li{
         flex-direction: column;
         align-items: center;
     }
+    .call-center .row .col-md-3{
+        margin-bottom: 10px;
+    }
     #main-from{
         position: relative !important;
     }
@@ -456,6 +471,10 @@ header li{
     }
     .inner-box .btn .left{
         margin-left: 20px !important;
+    }
+     .cuba , .california{
+        height: 470px !important; 
+        margin-bottom: 20px;
     }
     input{
         font-size: 14px !important;
@@ -524,10 +543,6 @@ header li{
         width: 70%;
         margin: 10px auto;
     }
-    .flex{
-        align-items: center;
-    justify-content: center;
-    }
     .inner-box a{
         width: 100%;
     }
@@ -536,15 +551,59 @@ header li{
     #main-from{
         max-width: 82%; 
     }
+    .call-box a{
+        display: flex;
+        align-items: center;
+    }
+    .container{
+        padding-bottom: 0px;
+    }
+    .call-box a span{
+        font-size: 14px;
+    }
+    .support-box .icon img{
+        width: 40%;
+    } 
+    
     .main-navbar .logo-box{
         width: 50%;
+    }
+    .inquiry-btn{
+        font-size: 12px;
+    }
+    .round-cuba{
+        font-size: 11px !important;
+    }
+    .slider .item .left {
+        padding-left: 10px;
+    }
+    .slider .item .left .title{
+        font-size: 15px !important;
+    }
+    .slider .item .left p{
+        margin-bottom: 0px;
+    }
+    .round-trip .cuba .flex , .round-trip .california .flex{
+        justify-content: space-between !important;
+    }
+    .call-center .row .svg{
+        width: 50%;
+    }
+    .call-center .row .icon{
+        width: 120PX;
+    }
+    .call-center .row .support-box{
+        justify-content: flex-start
+    }
+    .call-center .row .contant h3{
+        font-size: 16px;
     }
     .menu-box span{
         width: 30px;
     }
     .menu-box{
         right: 34px;
-        top: 5px;
+        top: 19px;
     }
     .menu-open .menu-box{
        top: 18px; 
@@ -552,8 +611,26 @@ header li{
     .round-trip{
         flex-wrap: wrap;
     }
-    .round-trip div{
-        width: 100% !important; 
+    .inner-box {
+        width: 100%;
+    }
+    .slider .cantent-box{
+        top: 23%;
+    }
+    .inner-box h2 {
+        font-size: 14px;
+    }
+    .mile{
+        display: none;
+    }
+    .card-payment .flex img{
+        width: 50px;
+        margin-right: 28px;
+        margin-bottom: 28px;
+        mix-blend-mode: darken;
+    }
+    .social h2{
+        font-size: 20px;
     }
     .inner-box select{
         font-size: 14px;
@@ -593,7 +670,7 @@ header li{
     }
     .title h2{
         margin: 10px 0px !important;
-        font-size: 33px !important;
+        font-size: 20px !important;
     }
     .link a img{
         display: none;
@@ -615,7 +692,36 @@ header li{
     .inner-box.w-full.p-0.border-0.relative img {
         height: 250px;
     }
+    .pick-up{
+        flex-wrap:wrap; 
+    }
+    .pick-up div{
+        width: 100% !important;
+        margin: 10px 0px  !important;
+        
+    }
 
+    /* contact us  */
+
+    .about-us-banner{
+        height: 14rem !important;
+    }
+    .privacy .title h1{
+        font-size: 26px !important;
+    }
+    .about-us-banner .title h1{
+        font-size: 32px;
+    }
+    .from .call .mail{
+        justify-content: flex-start !important;
+        margin: 20px 0px;
+    }
+    .united-air{
+        left: 0px;
+    }
+    .united-air-line h3{
+        text-align: center;
+    }
 
 }
 /* inner */
@@ -708,12 +814,8 @@ p{
 }
 @media (max-width: 768px) {
     .box{
-        width: 40%;
+            width: 40%;
     }
-    .flex{
-        flex-direction: row;
-        align-items: center;
-    } 
     .fly .flex:last-child{
         flex-direction: column-reverse;
     }
