@@ -350,16 +350,24 @@ header li{
 }
 .cuba{
     background-size: cover;
-    background-image: url('../image/cuba.jpg');
+    background-image: url('../image/Cancun.jpg');
 }
 .california{
     background-size: cover;
-    background-image: url('../image/california.jpg');
+    background-image: url('../image/Montego\ Bay.jpg');
 }
 #slider .owl-dots{
     display: none;
 }
-
+.modal-content{
+    background: linear-gradient(90deg, rgba(174,243,178,1) 0%, rgba(72,121,144,1) 100%);
+}
+.modal-content .form-control,.modal-content .modal-footer,.modal-content .modal-header{
+    border-color: #000 !important;
+}
+.call a{
+    background: linear-gradient(90deg, rgba(174,243,178,1) 0%, rgba(72,121,144,1) 100%);    
+}
 @media screen and (max-width:800px) {
     .modal-content {
         width: 100%;
@@ -545,6 +553,19 @@ header li{
     }
     .inner-box a{
         width: 100%;
+    }
+    .whatsapp a img{
+        width: 26px;
+    }
+    .call{
+        bottom: 26px;
+    }
+    .call a{
+        font-size: 10px;
+    }
+    .turstpilot img{
+        width: 51%;
+        margin-top: -51px;
     }
 }
 @media (max-width: 425px) {
